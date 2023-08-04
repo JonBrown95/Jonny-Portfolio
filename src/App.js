@@ -8,11 +8,16 @@ import About from './components/About';
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
+      <div class="snap-y snap-mandatory h-[100dvh] w-screen overflow-y-scroll overflow-x-hidden">
+      
       <Hero />
       <About />
+      
       <ScrollToTopButton />
     </div>
+    </div>
+    
   );
 }
 

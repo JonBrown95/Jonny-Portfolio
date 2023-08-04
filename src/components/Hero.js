@@ -2,13 +2,16 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="text-black h-screen bg-white px-6">
-      <div className="max-w-[800px] mx-auto h-full flex flex-col justify-center text-center">
-        <h1 className="md:text-6xl sm:text-4xl text-3xl mt-[-300px]">Jonathan Brown.</h1>
+    <div className="text-black h-screen bg-white">
+      <div className="snap-start max-w-[800px] mx-auto h-full flex flex-col justify-center text-center">
+        <h1 className="md:text-5xl sm:text-4xl text-3xl mt-[-350px]">Hello, my name is Jonny! </h1>
         <p className="text-[#00df9a] font-bold p-2">Full-Stack developer based in Leeds.</p>
       </div>
     </div>
   );
+    
+    
+  
 }
 
 export default Hero;
