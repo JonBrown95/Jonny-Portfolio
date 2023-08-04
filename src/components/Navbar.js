@@ -2,13 +2,19 @@ import blackLogo from '../images/blackLogo.svg'
 
 const Navbar = () => {
     return (
-     <div className='flex justify-between backdrop-blur-xl items-center h-20 max-w-[1240px] mx-auto px-6 text-black'>
-        <img src={blackLogo} alt="Black Logo" className="h-12 " />
-        <ul className="flex">
-            <li className="p-4">Contact</li>
-        </ul>
-     </div>
-    )
-}
+        <nav className="sticky top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-0 bg-white">
+  <div className="max-w-5xl mx-auto px-4">
+    <div className="flex items-center justify-between h-16">
+      <span className="text-2xl text-gray-900 font-semibold">Jonny</span>
+      <div className="flex space-x-4 text-gray-900">
+        
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+    )}
 
 export default Navbar
