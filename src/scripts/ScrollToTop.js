@@ -28,7 +28,7 @@ const ScrollToTopButton = () => {
   
   return (
     <button
-      className={`fixed bottom-5 right-5  text-[#00df9a] text-3xl w-12 h-12 rounded-full outline-none ${
+      className={`fixed bottom-5 right-5  text-[#000000] text-3xl w-12 h-12 rounded-full outline-none ${
         isVisible ? 'animate-bounce' : 'hidden'
       }`}
       onClick={scrollToTop}
