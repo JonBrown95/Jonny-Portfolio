@@ -1,7 +1,7 @@
 const Projects= () => {
     return (
     
-      <div class="snap-start bg-[#eef048] w-screen h-screen flex items-center justify-center text-8xl">
+      <div id="projects" class="snap-start bg-[#eef048] w-screen h-screen flex items-center justify-center text-8xl">
       <div className="w-full h-[80vh] short:h-full max-w-[900px] p-10 px-10 md:p-10 max-h-[600px] ">
       <h1 className="font-bold mb-2 md:mb-5 text-3xl md:text-4xl lg:text-6xl">Projects</h1>
       <hr className="border-[#ffffff] border-[4px] rounded w-12 mb-4" />

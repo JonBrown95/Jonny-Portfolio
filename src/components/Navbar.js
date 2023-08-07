@@ -8,9 +8,9 @@ const Navbar = () => {
     <img src={blackLogo} alt="Logo for Jonny's portfolio - initials JB in <> tags" className="h-14 w-14" />
       <div className="flex space-x-4 text-gray-900">
         
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   </div>
