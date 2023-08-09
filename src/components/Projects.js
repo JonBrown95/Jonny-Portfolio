@@ -1,20 +1,81 @@
-const Projects= () => {
-    return (
-    
-      <div id="projects" class="snap-start bg-[#eef048] w-screen h-screen flex items-center justify-center text-8xl">
-      <div className="w-full h-[80vh] short:h-full max-w-[900px] p-10 px-10 md:p-10 max-h-[600px] ">
-      <h1 className="font-bold mb-2 md:mb-5 text-3xl md:text-4xl lg:text-6xl">Projects</h1>
-      <hr className="border-[#ffffff] border-[4px] rounded w-12 mb-4" />
-            <div className="space-y-2 sm:space-y-3 text-[12px] md:space-y-5 sm:my-3 sm:text-sm lg:text-[18px] lg:leading-7 dark:text-stone-900">
-              <p className='p-2 bg-white rounded-md'> 
-                I pride myself in being hard-working, a people person and as someone who will always go the extra mile. I made the decision to retrain as a <b>software developer</b> and have not regretted it. The problem solving, the fact that the sky is the limit when it comes to coding and how you only get out what you put in is something I love.
-              </p>
+import React from "react";
+import blackLogo from "../images/blackLogo.svg";
+
+const Projects = () => {
+  return (
+    <div id='projects'className="bg-[#00df9a] snap-start min-h-screen flex flex-col items-center justify-center overflow-hidden">
+      <div className="w-full max-w-screen-xl px-4 md:px-10 py-20 md:py-20 translate-y-3 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-xl">
+            <a className=" overflow-hidden">
+              <img
+                src={blackLogo}
+                alt="Portfolio logo"
+                className="object-cover w-full h-full rounded-md"
+              />
+            </a>
+            <a className="flex">
+              <h2 className="font-bold text-xl">Jonny's Portfolio</h2>
+            </a>
+            <p className="text-sm">
+              Version 1 of my Portfolio - the website you are browsing. Made
+              using React, Javascript and TailwindCSS. Built with simplicity in
+              mind, my portfolio is fully responsive depending on your device of
+              choice.
+            </p>
+            <ul className="flex flex-row flex-wrap gap-2 mt-auto">
+              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
+                JavaScript
+              </li>
+              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
+                React
+              </li>
+              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
+                TailwindCSS
+              </li>
+              
+            </ul>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-lg">
+            <a className=" overflow-hidden">
+              <img
+                src={blackLogo}
+                alt="Portfolio logo"
+                className="object-cover w-full h-full rounded-md"
+              />
+            </a>
+            <a className="flex hover:underline">
+              <h2 className="font-bold text-xl">Jonny's Portfolio</h2>
+            </a>
+            <p className="text-sm">
+              Version 1 of my Portfolio - the website you are browsing. Made
+              using React, Javascript and TailwindCSS.
+            </p>
+            <ul className="flex flex-row flex-wrap gap-2 mt-auto">
+              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
+                JavaScript
+              </li>
+              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
+                React
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-lg">
+            <div className="flex flex-col justify-center h-1/2 gap-2">
               
             </div>
+            <h1 className="text-bold">More projects coming soon..</h1>
+            <div className="flex flex-col text-sm">
+             
+             
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-    )}
-    
-  
-  export default Projects
-  
+    </div>
+  );
+};
+
+export default Projects;
