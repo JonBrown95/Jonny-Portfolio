@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap"
     />
     <App />
   </React.StrictMode>
