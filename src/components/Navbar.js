@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import blackLogo from "../images/blackLogo.svg";
+import { ReactComponent as GithubIcon} from "../images/Github.svg"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -65,6 +66,13 @@ const Navbar = () => {
             <a href="#contact" onClick={handleMenuItemClick}>
               Contact
             </a>
+            <a
+              href="https://github.com/JonBrown95"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon className="w-6 h-6 hover:text-black" />
+            </a>
           </div>
         </div>
         {menuOpen && (
@@ -90,6 +98,7 @@ const Navbar = () => {
             >
               Contact
             </a>
+            
           </div>
         )}
       </div>
