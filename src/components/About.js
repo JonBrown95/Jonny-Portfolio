@@ -25,7 +25,7 @@ const About = () => {
                   enter="ease-in duration-[1000ms] transition-all"
                   enterFrom="opacity-0 translate-y-12"
                   enterTo="opacity-100 translate-y-0"
-                  className="flex justify-center font-bold mb-2 md:mb-5 text-3xl md:text-4xl lg:text-6xl"
+                  className="flex justify-center font-bold mb-2 md:mb-5 text-3xl md:text-5xl lg:text-6xl"
                 >
                   About Me
                 </Transition.Child>
@@ -41,7 +41,7 @@ const About = () => {
                   enter="ease-in duration-[1000ms] delay-[400ms] transition-all"
                   enterFrom="opacity-0 translate-y-12"
                   enterTo="opacity-100 translate-y-0"
-                  className="space-y-2 sm:space-y-3 text-[12px] md:space-y-5 sm:my-3 sm:text-sm lg:text-[16px] lg:leading-7 dark:text-stone-900"
+                  className="space-y-2 sm:space-y-3 text-[12px] md:space-y-5 sm:my-3 sm:text-sm lg:text-[16px] md:text-[16px] lg:leading-7 dark:text-stone-900"
                 >
                   <p className="p-3 bg-white rounded-md">
                     I pride myself in being hard-working, a people person and as someone who will always go the extra
@@ -65,7 +65,7 @@ const About = () => {
                   enterTo="opacity-100 translate-y-0"
                   className="mt-8"
                 >
-                  <h1 className="flex justify-center font-bold text-3xl md:text-4xl lg:text-6xl">
+                  <h1 className="flex justify-center font-bold text-3xl md:text-5xl lg:text-6xl">
                     Skills
                   </h1>
                   <hr className="border-[#ffffff] border-[2px] rounded w-13 mx-auto mt-2" />
