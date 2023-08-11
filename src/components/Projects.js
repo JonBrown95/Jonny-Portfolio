@@ -1,5 +1,6 @@
 import React from "react";
 import blackLogo from "../images/blackLogo.svg";
+import TakeAHikeLogo from "../images/TakeAHikeLogo.png"
 
 const Projects = () => {
   return (
@@ -24,15 +25,11 @@ const Projects = () => {
               choice.
             </p>
             <ul className="flex flex-row flex-wrap gap-2 mt-auto">
-              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
-                JavaScript
+              <li className="px-2 py-1 text-xs font-semibold bg-[#00df9a] rounded text-black">
+                Read More
               </li>
-              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
-                React
-              </li>
-              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
-                TailwindCSS
-              </li>
+              
+              
               
             </ul>
           </div>
@@ -40,24 +37,21 @@ const Projects = () => {
           <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-lg">
             <a className=" overflow-hidden">
               <img
-                src={blackLogo}
+                src={TakeAHikeLogo}
                 alt="Portfolio logo"
                 className="object-cover w-full h-full rounded-md"
               />
             </a>
             <a className="flex hover:underline">
-              <h2 className="font-bold text-xl">Jonny's Portfolio</h2>
+              <h2 className="font-bold text-xl">Take a Hike</h2>
             </a>
             <p className="text-sm">
               Version 1 of my Portfolio - the website you are browsing. Made
               using React, Javascript and TailwindCSS.
             </p>
             <ul className="flex flex-row flex-wrap gap-2 mt-auto">
-              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
-                JavaScript
-              </li>
-              <li className="px-2 py-1 text-xs font-semibold bg-black rounded text-white">
-                React
+            <li className="px-2 py-1 text-xs font-semibold bg-[#00df9a] rounded text-black">
+                Read More
               </li>
             </ul>
           </div>
@@ -66,7 +60,7 @@ const Projects = () => {
             <div className="flex flex-col justify-center h-1/2 gap-2">
               
             </div>
-            <h1 className="text-bold">More projects coming soon..</h1>
+            <h2 className="text-bold">More projects coming soon..</h2>
             <div className="flex flex-col text-sm">
              
              
