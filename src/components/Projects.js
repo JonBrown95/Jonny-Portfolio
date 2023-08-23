@@ -56,7 +56,7 @@ const Projects = () => {
             </ul>
           </div>
 
-          <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-lg">
+          <div className="bg-white  p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-lg">
             <div className="flex flex-col justify-center h-1/2 gap-2">
               
             </div>
