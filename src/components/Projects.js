@@ -8,14 +8,14 @@ const Projects = () => {
       <div className="w-full max-w-screen-xl px-4 md:px-10 py-20 md:py-20 translate-y-3 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-xl">
-            <a className=" overflow-hidden">
+          <a href="/replace"className=" overflow-hidden">
               <img
                 src={blackLogo}
                 alt="Portfolio logo"
                 className="object-cover w-full h-full rounded-md"
               />
             </a>
-            <a className="flex">
+            <a href="/replace"className="flex">
               <h2 className="font-bold text-xl">Jonny's Portfolio</h2>
             </a>
             <p className="text-sm">
@@ -35,14 +35,14 @@ const Projects = () => {
           </div>
 
           <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-lg">
-            <a className=" overflow-hidden">
+            <a href="/replace"className=" overflow-hidden">
               <img
                 src={TakeAHikeLogo}
                 alt="Portfolio logo"
                 className="object-cover w-full h-full rounded-md"
               />
             </a>
-            <a className="flex hover:underline">
+            <a href="/replace"className="flex hover:underline">
               <h2 className="font-bold text-xl">Take a Hike</h2>
             </a>
             <p className="text-sm">
