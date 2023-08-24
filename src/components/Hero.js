@@ -14,7 +14,7 @@ const Hero = () => {
 
 
 
-        <div class="absolute flex flex-col gap-1 text-[#00df9a] animate-bounce w-10 h-10 bottom-4 right-2 md:right-4">
+        <div class="absolute flex flex-col gap-1 text-[#00df9a] animate-bounce w-10 h-10 bottom-6 right-4 md:right-4">
         <a class="flex items-center justify-center" href="#about">
         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 cursor-pointer" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><polyline points="8 12 12 16 16 12"></polyline><line x1="12" y1="8" x2="12" y2="16"></line></svg>
        </a></div>
