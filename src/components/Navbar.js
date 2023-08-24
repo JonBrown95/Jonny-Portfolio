@@ -76,27 +76,35 @@ const Navbar = () => {
           </div>
         </div>
         {menuOpen && (
-          <div className="mt-2 md:hidden">
+          <div className="mt-16 md:hidden">
             <a
               href="#about"
-              className="hover:underline font-bold block py-2 text-gray-900"
+              className="hover:underline text-center text-6xl font-bold block py-4 text-gray-900"
               onClick={handleMenuItemClick}
             >
               About
             </a>
             <a
               href="#projects"
-              className="hover:underline block py-2 text-gray-900"
+              className="hover:underline text-center text-6xl font-bold block py-4 text-gray-900"
               onClick={handleMenuItemClick}
             >
               Projects
             </a>
             <a
               href="#contact"
-              className="hover:underline block py-2 text-gray-900"
+              className="hover:underline text-center text-6xl block font-bold py-4 text-gray-900"
               onClick={handleMenuItemClick}
             >
               Contact
+            </a>
+            <a
+              href="https://github.com/JonBrown95"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon className="w-12 h-12 text-6xl mx-auto block" />
+
             </a>
             
           </div>
