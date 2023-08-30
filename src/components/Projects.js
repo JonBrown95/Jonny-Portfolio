@@ -4,10 +4,10 @@ import TakeAHikeLogo from "../images/TakeAHikeLogo.png"
 
 const Projects = () => {
   return (
-    <div id='projects'className="bg-[#00df9a] snap-start min-h-screen flex flex-col items-center justify-center overflow-hidden">
-      <div className="w-full max-w-screen-xl px-4 md:px-10 py-20 md:py-20 translate-y-3 ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 overflow-y-scroll max-h-[calc(100vh-8rem)]">
-          <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-xl">
+    <div id="projects" className="bg-[#00df9a] snap-start min-h-screen flex flex-col items-center justify-center">
+      <div className="w-full max-w-screen-xl px-4 md:px-10 py-20 md:py-20 translate-y-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-xl">
           <a href="/replace"className=" overflow-hidden">
               <img
                 src={blackLogo}
@@ -34,7 +34,7 @@ const Projects = () => {
             </ul>
           </div>
 
-          <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-lg">
+          <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-xl">
             <a href="/replace"className=" overflow-hidden">
               <img
                 src={TakeAHikeLogo}
@@ -56,7 +56,7 @@ const Projects = () => {
             </ul>
           </div>
 
-          <div className="bg-white  p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-lg">
+          <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-xl">
             <div className="flex flex-col justify-center h-1/2 gap-2">
               
             </div>
