@@ -9,9 +9,12 @@ const Hero = () => {
           <span class="underline underline-offset-3 decoration-8 decoration-[#00df9a] ">
             Jonathan!
           </span>
-          
-        </h1>
-<h2>Fill</h2>
+          </h1>
+          <p className="text-lg text-gray-700 md:text-xl lg:text-2xl">
+  Leeds-based software developer exploring the digital realm, one line of code at a time.
+</p>
+        
+
         <div class="absolute flex flex-col gap-1 text-[#00df9a] animate-bounce w-10 h-10 bottom-2 right-3 md:right-4">
           <a class="flex items-center justify-center" href="#about">
             <svg
