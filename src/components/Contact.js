@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <footer
       id="contact"
-      className="snap-end bg-opacity-40 p-10 text-xs md:text-sm bg-slate-300 flex flex-col gap-5 text-black gap-4 justify-center items-center w-screen h-[300dvh] min-h-[100px] max-h-[200px] font-bold subpixel-antialiased"
+      className="snap-end bg-opacity-40 p-10 text-xs md:text-sm bg-slate-300 flex flex-col gap-5 text-black justify-center items-center w-screen h-[300dvh] min-h-[100px] max-h-[200px] font-bold subpixel-antialiased"
     >
       <div className="text-center md:max-w-[500px] max-w-[300px]">
         <p>Created by Jonathan Brown using React with Tailwind CSS</p>
