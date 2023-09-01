@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { InView } from 'react-intersection-observer';
-import JavaScriptIcon from '../images/Javascript.svg';
 import { DiCss3, DiDatabase, DiGithub, DiHtml5, DiJsBadge, DiMysql, DiReact} from "react-icons/di";
 
 
