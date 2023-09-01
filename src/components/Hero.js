@@ -1,7 +1,11 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
+
+  
   return (
+    
     <div className="text-black h-screen w-screen bg-white" id="hero">
       <div className="relative snap-start w-screen mx-auto h-[100dvh] flex flex-col justify-center items-center text-center">
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
@@ -11,7 +15,22 @@ const Hero = () => {
           </span>
           </h1>
           <p className="text-lg text-gray-700 md:text-xl lg:text-2xl">
-  Leeds-based software developer exploring the digital realm, one line of code at a time.
+  <TypeAnimation
+      sequence={[
+       
+        'Leeds-based software developer exploring the digital realm one line of code at a time',
+        1000, 
+        'Leeds-based software developer exploring the digital realm one cup of coffee at a time',
+        1000,
+        
+        
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{display: 'inline-block' }}
+      repeat={Infinity}
+    />
+ 
 </p>
         
 
