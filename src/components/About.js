@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { InView } from 'react-intersection-observer';
 import JavaScriptIcon from '../images/Javascript.svg';
+import { DiCss3, DiDatabase, DiGithub, DiHtml5, DiJsBadge, DiMysql, DiReact} from "react-icons/di";
 
 
 const About = () => {
@@ -70,16 +71,16 @@ const About = () => {
                   </h1>
                   <hr className="border-[#ffffff] border-[2px] rounded w-13 mx-auto mt-2" />
                   <div className="flex justify-center gap-6 mt-4">
-                    <div className="w-16 h-16  rounded-lg shadow-lg flex items-center justify-center cursor-pointer transform hover:scale-110 transition-transform">
-                      <img src={JavaScriptIcon} alt="JavaScript Icon" />
-                    </div>
-                    <div className="w-16 h-16 bg-white rounded-lg shadow-lg flex items-center justify-center cursor-pointer transform hover:rotate-12 transition-transform">
-
-
-
-                      <img src={JavaScriptIcon} alt="MySQL Icon" />
-                    </div>
-                    {/* add icons here */}
+                    
+                  <DiJsBadge className="w-12 h-12 text-yellow-500" />
+                    <DiReact className="w-12 h-12 text-blue-500" />
+                    <DiDatabase className="w-12 h-12 text-purple-500" />
+                    <DiMysql className="w-12 h-12 text-orange-500" />
+                    <DiGithub className="w-12 h-12 text-gray-500" />
+                    <DiHtml5 className="w-12 h-12 text-red-500" />
+                    <DiCss3 className="w-12 h-12 text-blue-500" />
+                    
+                    {/* add more skills here as I learn*/}
                   </div>
                 </Transition.Child>
               </Transition.Root>
