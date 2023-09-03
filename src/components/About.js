@@ -1,8 +1,15 @@
-import React, { useState } from 'react';
-import { Transition } from '@headlessui/react';
-import { InView } from 'react-intersection-observer';
-import { DiCss3, DiDatabase, DiGithub, DiHtml5, DiJsBadge, DiMysql, DiReact} from "react-icons/di";
-
+import React, { useState } from "react";
+import { Transition } from "@headlessui/react";
+import { InView } from "react-intersection-observer";
+import {
+  DiCss3,
+  DiDatabase,
+  DiGithub,
+  DiHtml5,
+  DiJsBadge,
+  DiMysql,
+  DiReact,
+} from "react-icons/di";
 
 const About = () => {
   const [animationTriggered, setAnimationTriggered] = useState(false);
@@ -14,7 +21,10 @@ const About = () => {
   };
 
   return (
-    <div id="about" className="snap-start bg-[#00df9a] w-screen h-screen flex items-center justify-center text-8xl" >
+    <div
+      id="about"
+      className="snap-start bg-[#00df9a] w-screen h-screen flex items-center justify-center text-8xl"
+    >
       <div className="w-full h-[80vh] short:h-full max-w-[900px] mt-[-50px] p-10 px-10 md:p-10 max-h-[600px]">
         <InView onChange={handleInView}>
           {({ inView, ref }) => (
@@ -41,23 +51,23 @@ const About = () => {
                   enter="ease-in duration-[1000ms] delay-[400ms] transition-all"
                   enterFrom="opacity-0 translate-y-12"
                   enterTo="opacity-100 translate-y-0"
-                  className="space-y-2 sm:space-y-3 text-[12px] md:space-y-5 sm:my-3 sm:text-sm lg:text-[16px] md:text-[16px] lg:leading-7 dark:text-stone-900"
+                  className="space-y-2 sm:space-y-3 text-[16px] md:space-y-4 md:text-[17px] sm:my-3  lg:leading-7 dark:text-stone-900"
                 >
-                  <p className="p-3 bg-white rounded-md">
-                    I pride myself in being hard-working, a people person and as someone who will always go the extra
-                    mile. I made the decision to retrain as a <b>software developer</b> and have not regretted it. The
-                    problem solving, the fact that the sky is the limit when it comes to coding and how you only get
-                    out what you put in is something I love.
+                  <p className="p-3 bg-white rounded-md shadow-md text-gray-800">
+                    I'm passionate about software development, known for my
+                    strong work ethic and interpersonal skills. Making the
+                    decision to retrain as a{" "}
+                    <b className="text-[#00df9a]">software developer</b> was one
+                    of the best choices I've made. I thrive on problem-solving,
+                    embrace the limitless possibilities of coding, and believe
+                    that the effort you put in directly correlates with what you
+                    achieve.
                   </p>
-                  <p className="p-3 bg-white rounded-md">
-                    I pride myself in being hard-working, a people person and as someone who will always go the extra
-                    mile. I made the decision to retrain as a <b>software developer</b> and have not regretted it. The
-                    problem solving, the fact that the sky is the limit when it comes to coding and how you only get
-                    out what you put in is something I love.
+                  <p className="p-3 bg-white rounded-md shadow-md text-gray-800">
+                    I do all my coding magic from Leeds. Beyond this I am a huge Muay Thai fan and have travelled to Thailand multiple times to practice this and train with professionals (also for the food). Music's also my jam and I am a frequent festival goer whether it's in the sunshine or rain. You can also expect to see me in the kitchen where I (try) cook though that's definitely something I could do with some training on!
                   </p>
                 </Transition.Child>
 
-                
                 <Transition.Child
                   as="div"
                   enter="ease-in duration-[1000ms] delay-[400ms] transition-all"
@@ -70,16 +80,14 @@ const About = () => {
                   </h1>
                   <hr className="border-[#ffffff] border-[2px] rounded w-13 mx-auto mt-2" />
                   <div className="flex justify-center gap-6 mt-4">
-                    
-                  <DiJsBadge className="w-12 h-12 text-yellow-500" />
-                    <DiReact className="w-12 h-12 text-blue-500" />
-                    <DiDatabase className="w-12 h-12 text-purple-500" />
-                    <DiMysql className="w-12 h-12 text-orange-500" />
-                    <DiGithub className="w-12 h-12 text-gray-500" />
-                    <DiHtml5 className="w-12 h-12 text-red-500" />
-                    <DiCss3 className="w-12 h-12 text-blue-500" />
-                    
-                    {/* add more skills here as I learn*/}
+                    <DiJsBadge className="w-14 h-14 md:w-16 md:h-16 text-yellow-500" />
+                    <DiReact className="w-14 h-14 md:w-16 md:h-16 text-blue-500" />
+                    <DiDatabase className="w-14 h-14 md:w-16 md:h-16 text-purple-500" />
+                    <DiMysql className="w-14 h-14 md:w-16 md:h-16 text-orange-500" />
+                    <DiGithub className="w-14 h-14 md:w-16 md:h-16 text-gray-500" />
+                    <DiHtml5 className="w-14 h-14 md:w-16 md:h-16 text-red-500" />
+                    <DiCss3 className="w-14 h-14 md:w-16 md:h-16 text-blue-500" />
+                    {/* add more skills here as I learn */}
                   </div>
                 </Transition.Child>
               </Transition.Root>
