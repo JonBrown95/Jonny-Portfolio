@@ -25,7 +25,7 @@ const About = () => {
       id="about"
       className="snap-start bg-[#00df9a] w-screen h-screen flex items-center justify-center text-8xl"
     >
-      <div className="w-full h-[80vh] short:h-full max-w-[900px] mt-[-50px] p-10 px-10 md:p-10 max-h-[600px]">
+      <div className="w-full h-[80vh] short:h-full max-w-[900px] mt-[-70px] p-10 px-10 md:p-10 max-h-[600px]">
         <InView onChange={handleInView}>
           {({ inView, ref }) => (
             <div ref={ref}>
