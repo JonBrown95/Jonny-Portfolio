@@ -14,7 +14,7 @@ const Projects = () => {
             <img
               src={blackLogo}
               alt="Portfolio logo"
-              className="object-cover w-full h-full rounded-md"
+              className="object-contain w-full h-40 rounded-md"
             />
 
             <h2 className="font-bold text-xl">Jonny's Portfolio</h2>
@@ -23,7 +23,7 @@ const Projects = () => {
               Version 1 of my Portfolio - the website you are browsing. Made
               using React, Javascript and TailwindCSS. Built with simplicity in
               mind, my portfolio is fully responsive depending on your device of
-              choice.
+              choice. Probably my favourite project to work on to showcase my work and put my skills to the test. 
             </p>
             <ul className="flex flex-row flex-wrap gap-2 mt-auto"></ul>
           </div>
@@ -32,7 +32,7 @@ const Projects = () => {
             <img
               src={TakeAHikeLogo}
               alt="Portfolio logo"
-              className="object-cover w-full h-full rounded-md"
+              className="object-contain w-full h-40 rounded-md"
             />
 
             <h2 className="font-bold text-xl">Take a Hike</h2>
