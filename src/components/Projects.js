@@ -38,8 +38,7 @@ const Projects = () => {
             <h2 className="font-bold text-xl">Take a Hike</h2>
 
             <p className="text-sm">
-              Version 1 of my Portfolio - the website you are browsing. Made
-              using React, Javascript and TailwindCSS.
+              Take a Hike is a Mobile application created using React Native - this was my Northcoders project. Take a Hike allowed you to create routes to then use to create events that other hikers could join. We used Mapbox API to have interactive maps which pinned the start location of the hike with a fully functional friends and instant messaging system.
             </p>
             <ul className="flex flex-row flex-wrap gap-2 mt-auto"></ul>
           </div>
