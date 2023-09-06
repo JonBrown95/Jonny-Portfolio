@@ -64,7 +64,13 @@ const About = () => {
                     achieve.
                   </p>
                   <p className="p-3 bg-white rounded-md shadow-md text-gray-800">
-                    I do all my coding magic from Leeds. Beyond this I am a huge Muay Thai fan and have travelled to Thailand multiple times to practice this and train with professionals (also for the food). Music's also my jam and I am a frequent festival goer whether it's in the sunshine or rain. You can also expect to see me in the kitchen where I (try) cook though that's definitely something I could do with some training on!
+                    I do all my coding magic from Leeds. Beyond this I am a huge
+                    Muay Thai fan and have travelled to Thailand multiple times
+                    to practice this and train with professionals (also for the
+                    food). Music's also my jam and I am a frequent festival goer
+                    whether it's in the sunshine or rain. You can also expect to
+                    see me in the kitchen where I (try) cook though that's
+                    definitely something I could do with some training on!
                   </p>
                 </Transition.Child>
 
@@ -80,13 +86,35 @@ const About = () => {
                   </h1>
                   <hr className="border-[#ffffff] border-[2px] rounded w-13 mx-auto mt-2" />
                   <div className="flex justify-center gap-6 mt-4">
-                    <DiJsBadge className="w-14 h-14 md:w-16 md:h-16 text-yellow-500" />
-                    <DiReact className="w-14 h-14 md:w-16 md:h-16 text-blue-500" />
-                    <DiDatabase className="w-14 h-14 md:w-16 md:h-16 text-purple-500" />
-                    <DiMysql className="w-14 h-14 md:w-16 md:h-16 text-orange-500" />
-                    <DiGithub className="w-14 h-14 md:w-16 md:h-16 text-gray-500" />
-                    <DiHtml5 className="w-14 h-14 md:w-16 md:h-16 text-red-500" />
-                    <DiCss3 className="w-14 h-14 md:w-16 md:h-16 text-blue-500" />
+                    <DiJsBadge
+                      className="w-16 h-16 md:w-20 md:h-20 text-yellow-500 hover:text-yellow-600 hover:scale-105 transition-transform duration-300"
+                      title="JavaScript"
+                    />
+                    <DiReact
+                      className="w-16 h-16 md:w-20 md:h-20 text-blue-500 hover:text-blue-600 hover:scale-105 transition-transform duration-300"
+                      title="React"
+                    />
+                    <DiDatabase
+                      className="w-16 h-16 md:w-20 md:h-20 text-purple-500 hover:text-purple-600 hover:scale-105 transition-transform duration-300"
+                      title="Database"
+                    />
+                    <DiMysql
+                      className="w-16 h-16 md:w-20 md:h-20 text-orange-500 hover:text-orange-600 hover:scale-105 transition-transform duration-300"
+                      title="MySQL"
+                    />
+                    <DiGithub
+                      className="w-16 h-16 md:w-20 md:h-20 text-gray-500 hover:text-gray-600 hover:scale-105 transition-transform duration-300"
+                      title="GitHub"
+                    />
+                    <DiHtml5
+                      className="w-16 h-16 md:w-20 md:h-20 text-red-500 hover:text-red-600 hover:scale-105 transition-transform duration-300"
+                      title="HTML5"
+                    />
+                    <DiCss3
+                      className="w-16 h-16 md:w-20 md:h-20 text-blue-500 hover:text-blue-600 hover:scale-105 transition-transform duration-300"
+                      title="CSS3"
+                    />
+
                     {/* add more skills here as I learn */}
                   </div>
                 </Transition.Child>
