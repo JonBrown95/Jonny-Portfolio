@@ -1,4 +1,7 @@
 import React from "react";
+import { DiReact, DiJavascript1 } from "react-icons/di";
+import { FaCss3, FaFire, FaJs, FaMobile, FaReact } from "react-icons/fa";
+
 import blackLogo from "../images/blackLogo.svg";
 import TakeAHikeLogo from "../images/TakeAHikeLogo.png";
 
@@ -23,9 +26,15 @@ const Projects = () => {
               Version 1 of my Portfolio - the website you are browsing. Made
               using React, Javascript and TailwindCSS. Built with simplicity in
               mind, my portfolio is fully responsive depending on your device of
-              choice. Probably my favourite project to work on to showcase my work and put my skills to the test. 
+              choice. Probably my favourite project to work on to showcase my
+              work and put my skills to the test.
             </p>
-            <ul className="flex flex-row flex-wrap gap-2 mt-auto"></ul>
+
+            <div className="flex gap-2 mt-auto justify-center">
+              <FaReact size={24} color="#61DAFB" title="React" />
+              <FaJs size={24} color="#F7DF1E" title="JavaScript" />
+              <FaCss3 size={24} color="#1572B6" title="Tailwind CSS" />
+            </div>
           </div>
 
           <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-xl">
@@ -38,9 +47,20 @@ const Projects = () => {
             <h2 className="font-bold text-xl">Take a Hike</h2>
 
             <p className="text-sm">
-              Take a Hike is a Mobile application created using React Native - this was my Northcoders project. Take a Hike allowed you to create routes to then use to create events that other hikers could join. We used Mapbox API to have interactive maps which pinned the start location of the hike with a fully functional friends and instant messaging system.
+              Take a Hike is a Mobile application created using React Native -
+              this was my Northcoders project. Take a Hike allowed you to create
+              routes to then use to create events that other hikers could join.
+              We used Mapbox API to have interactive maps which pinned the start
+              location of the hike with a fully functional friends and instant
+              messaging system.
             </p>
-            <ul className="flex flex-row flex-wrap gap-2 mt-auto"></ul>
+
+            <div className="flex gap-2 mt-auto justify-center">
+              <FaReact size={24} color="#61DAFB" title="React" />
+              <FaJs size={24} color="#F7DF1E" title="JavaScript" />
+              <FaMobile size={24} color="#333" title="React Native" />
+              <FaFire size={24} color="#FFA000" title="Firebase" />
+            </div>
           </div>
 
           <div className="bg-white p-6 rounded-lg flex flex-col gap-4 shadow-md hover:shadow-xl">
