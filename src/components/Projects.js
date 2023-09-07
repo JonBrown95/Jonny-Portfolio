@@ -20,9 +20,9 @@ const Projects = () => {
               className="object-contain w-full h-40 rounded-md"
             />
 
-            <h2 className="font-bold text-xl">Jonny's Portfolio</h2>
+            <h2 className="font-bold text-xl text-center">Jonny's Portfolio</h2>
 
-            <p className="text-sm">
+            <p className="text-sm text-center">
               Version 1 of my Portfolio - the website you are browsing. Made
               using React, Javascript and TailwindCSS. Built with simplicity in
               mind, my portfolio is fully responsive depending on your device of
@@ -44,9 +44,9 @@ const Projects = () => {
               className="object-contain w-full h-40 rounded-md"
             />
 
-            <h2 className="font-bold text-xl">Take a Hike</h2>
+            <h2 className="font-bold text-xl text-center">Take a Hike</h2>
 
-            <p className="text-sm">
+            <p className="text-sm text-center">
               Take a Hike is a Mobile application created using React Native -
               this was my Northcoders project. Take a Hike allowed you to create
               routes to then use to create events that other hikers could join.
