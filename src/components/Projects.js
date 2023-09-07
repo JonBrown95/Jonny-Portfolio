@@ -1,5 +1,4 @@
 import React from "react";
-import { DiReact, DiJavascript1 } from "react-icons/di";
 import { FaCss3, FaFire, FaJs, FaMobile, FaReact } from "react-icons/fa";
 
 import blackLogo from "../images/blackLogo.svg";
