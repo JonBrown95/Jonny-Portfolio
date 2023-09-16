@@ -66,11 +66,11 @@ const About = () => {
                   </p>
                   <p className="p-3 bg-white rounded-md shadow-md text-gray-800">
                     I do all my coding magic from Leeds. Beyond this I am a huge
-                    Muay Thai fan and have travelled to Thailand multiple times
+                    Muay Thai fan and have traveled to Thailand multiple times
                     to practice this and train with professionals (also for the
-                    food). Music's also my jam and I am a frequent festival goer
+                    food). Music's also my jam, and I am a frequent festival-goer
                     whether it's in the sunshine or rain. You can also expect to
-                    see me in the kitchen where I (try) cook though that's
+                    see me in the kitchen where I (try) cook, though that's
                     definitely something I could do with some training on!
                   </p>
                 </Transition.Child>
@@ -82,38 +82,45 @@ const About = () => {
                   enterTo="opacity-100 translate-y-0"
                   className="mt-4"
                 >
-                  <h1 className="flex justify-center font-bold text-3xl md:text-5xl lg:text-6xl">
+                  <h2 className="flex justify-center font-bold text-3xl md:text-5xl lg:text-6xl">
                     Skills
-                  </h1>
+                  </h2>
                   <hr className="border-[#ffffff] border-[2px] rounded w-13 mx-auto mt-2" />
                   <div className="flex justify-center gap-6 mt-4">
                     <DiJsBadge
                       className="w-16 h-16 md:w-20 md:h-20 text-yellow-500 hover:text-yellow-600 hover:scale-105 transition-transform duration-300"
                       title="JavaScript"
+                      aria-label="JavaScript icon"
                     />
                     <DiReact
                       className="w-16 h-16 md:w-20 md:h-20 text-blue-500 hover:text-blue-600 hover:scale-105 transition-transform duration-300"
                       title="React"
+                      aria-label="React icon"
                     />
                     <DiDatabase
                       className="w-16 h-16 md:w-20 md:h-20 text-purple-500 hover:text-purple-600 hover:scale-105 transition-transform duration-300"
                       title="Database"
+                      aria-label="Database icon"
                     />
                     <DiMysql
                       className="w-16 h-16 md:w-20 md:h-20 text-orange-500 hover:text-orange-600 hover:scale-105 transition-transform duration-300"
                       title="MySQL"
+                      aria-label="MySQL icon"
                     />
                     <DiGithub
                       className="w-16 h-16 md:w-20 md:h-20 text-gray-500 hover:text-gray-600 hover:scale-105 transition-transform duration-300"
                       title="GitHub"
+                      aria-label="GitHub icon"
                     />
                     <DiHtml5
                       className="w-16 h-16 md:w-20 md:h-20 text-red-500 hover:text-red-600 hover:scale-105 transition-transform duration-300"
                       title="HTML5"
+                      aria-label="HTML5 icon"
                     />
                     <DiCss3
                       className="w-16 h-16 md:w-20 md:h-20 text-blue-500 hover:text-blue-600 hover:scale-105 transition-transform duration-300"
                       title="CSS3"
+                      aria-label="CSS3 icon"
                     />
 
                     {/* add more skills here as I learn */}
