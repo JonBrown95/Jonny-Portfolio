@@ -6,7 +6,8 @@ const Hero = () => {
   
   return (
     
-    <div className="text-black h-screen w-screen bg-white" id="hero">
+    <div
+    className="text-black h-screen w-screen bg-white" id="hero">
       <div className="relative snap-start w-screen mx-auto h-[100dvh] flex flex-col justify-center items-center text-center">
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
           Hello, I'm{" "}
