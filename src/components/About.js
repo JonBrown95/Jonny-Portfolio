@@ -51,7 +51,8 @@ const About = () => {
                   enter="ease-in duration-[1000ms] delay-[400ms] transition-all"
                   enterFrom="opacity-0 translate-y-12"
                   enterTo="opacity-100 translate-y-0"
-                  className="space-y-2 sm:space-y-3 text-[14px] md:space-y-4 md:text-[17px] sm:my-3  lg:leading-7 dark:text-stone-900"
+                  className="space-y-2 sm:space-y-3 text-[14px] md:space-y-4 md:text-[17px] sm:my-3  lg:leading-6
+                   dark:text-stone-900"
                 >
                   <p className="p-3 bg-white rounded-md shadow-md text-gray-800">
                     I'm passionate about software development, known for my
@@ -79,7 +80,7 @@ const About = () => {
                   enter="ease-in duration-[1000ms] delay-[400ms] transition-all"
                   enterFrom="opacity-0 translate-y-12"
                   enterTo="opacity-100 translate-y-0"
-                  className="mt-8"
+                  className="mt-4"
                 >
                   <h1 className="flex justify-center font-bold text-3xl md:text-5xl lg:text-6xl">
                     Skills
