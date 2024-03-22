@@ -15,7 +15,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`top-0 z-50 bg-opacity-0 ${menuOpen ? "backdrop-blur-xl fixed inset-0" : ""}`}
+      className={`top-0 z-50 bg-opacity-0 ${
+        menuOpen ? "backdrop-blur-xl fixed inset-0" : ""
+      }`}
     >
       <div className="w-full mx-auto px-4 fixed top-0 z-50">
         <div className="flex justify-between backdrop-blur-xl items-center h-12">
@@ -59,13 +61,29 @@ const Navbar = () => {
             </button>
           </div>
           <div className="hidden md:flex space-x-4 font-bold text-gray-900">
-            <a href="#about" onClick={handleMenuItemClick} aria-label="About">
+            <a
+              href="#about"
+              className="transition-colors ease-in-out duration-300 hover:text-[#00df9a] hover:font-extrabold transform"
+              onClick={handleMenuItemClick}
+              aria-label="About"
+            >
               About
             </a>
-            <a href="#projects" onClick={handleMenuItemClick} aria-label="Projects">
+
+            <a
+              href="#projects"
+              className="transition-colors ease-in-out duration-300 hover:text-[#00df9a] hover:font-extrabold transform"
+              onClick={handleMenuItemClick}
+              aria-label="Projects"
+            >
               Projects
             </a>
-            <a href="#contact" onClick={handleMenuItemClick} aria-label="Contact">
+            <a
+              href="#contact"
+              className="transition-colors ease-in-out duration-300 hover:text-[#00df9a] hover:font-extrabold transform"
+              onClick={handleMenuItemClick}
+              aria-label="Contact"
+            >
               Contact
             </a>
             <a
