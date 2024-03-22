@@ -92,7 +92,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               aria-label="GitHub"
             >
-              <GithubIcon className="w-6 h-6 hover:text-black" />
+              <GithubIcon className="w-6 h-6 hover:animate-spin hover:scale-105" />
             </a>
           </div>
         </div>
